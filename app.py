@@ -321,11 +321,8 @@ def classifier_demo():
     }
 
     features = pd.DataFrame([input_dict])
-    if 'Age' in features.columns:
-        features['Age_log'] = np.log1p(features['Age'])
-        features.drop('Age', axis=1, inplace=True)
-    else:
-        st.error("Age field missing in input.")
+    features['Age_log'] = np.log1p(features['Age'])
+        
 
     if st.button("Predict"):
         transformed = preprocessor.transform(features)
