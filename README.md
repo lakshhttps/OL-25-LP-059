@@ -30,7 +30,7 @@ Watch the project in action:
 ---
 
 ### Screenshots
-![App Demo](assets/2025-08-01 200957.png)
+![App Demo](assets/2025-08-01_200957.png)
 
 ---
 
