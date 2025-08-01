@@ -74,7 +74,7 @@ def visualization(): #Data Visualization Page
     ''') 
     st.divider()
     st.header("Univariate Analysis")
-    st.image(r"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-07-31 102942.png")
+    st.image("assets/Screenshot 2025-07-31 102942.png")
     st.subheader("Trends in Univariate Analysis")
     st.markdown('''
     1. **Age** - Most of people are middle aged, 30s is the most significant age group.
@@ -95,8 +95,8 @@ def visualization(): #Data Visualization Page
     ''')
     st.divider()
     st.header("Bivariate Analysis")
-    st.image(r"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-08-01 001844.png")
-    st.image(r"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-08-01 001855.png")
+    st.image("assets/Screenshot 2025-08-01 001844.png")
+    st.image("assets/Screenshot 2025-08-01 001855.png")
     st.subheader("Trends in Bivariate Analysis")
     st.markdown('''
     ==> There are more people who seek treatment in the 'Often' and 'Rarely' cateogory in work interference compared to those who don't. In 'Never' category people don't seeking treatment are much higher in number. In 'Sometimes' both categories' people are almost equal in number.
@@ -148,7 +148,7 @@ def supervised(): #Superivised Tasks Page
     Best Model: XGB with F1 = 0.752083385831377
     ''')
     st.subheader('Confusion Matrix')
-    st.image(r"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-07-31 174750.png")
+    st.image("assets/Screenshot 2025-07-31 174750.png")
     st.subheader('Model Report')
     st.code('''
     precision    recall  f1-score   support
@@ -210,7 +210,7 @@ ROC-AUC Score: 81.201%
     Best Model: Ridge with R2 = 0.07090437207291325
     """)
     st.subheader('Actual v/s Predicted')
-    st.image(r"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-07-31 173408.png")
+    st.image("assets/Screenshot 2025-07-31 173408.png")
     st.subheader("Conclusion")
     st.markdown('''
     The Ridge model gave the best results, this can be inferred by comparing the scores of all models. The dataset was not so good for regression, that's why we are getting such low scores in regression for all models.
@@ -232,7 +232,7 @@ def unsupervised(): #Unsuperivised Task Page
     st.markdown("For the clustering task I used the most relevant features like treatment, work_interfere etc. I used t-SNE to for dimension reduction and clear visualization of the clusters. I have compared the K-Means and Agglomerative Clustering algorithms for different values of n_clusters and judged them on the basis of Silhouette score. I found out that using K-Means with n_clusters = 4 will be ideal for the task.")
     st.divider()
     st.header("Clusters Visualization")
-    st.image(r"C:\Users\HP\OneDrive\Pictures\Screenshots\Screenshot 2025-07-30 194206.png")
+    st.image("assets/Screenshot 2025-07-30 194206.png")
     st.divider()
     st.header("Clusters description")
     st.markdown("""
