@@ -325,7 +325,7 @@ def classifier_demo():
         features['Age_log'] = np.log1p(features['Age'])
         features.drop('Age', axis=1, inplace=True)
     else:
-    st.error("Age field missing in input.")
+        st.error("Age field missing in input.")
 
     if st.button("Predict"):
         transformed = preprocessor.transform(features)
