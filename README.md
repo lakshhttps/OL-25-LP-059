@@ -35,5 +35,5 @@ Watch the project in action:
 ---
 
 ### Acknowledgements
-- **Dataset Source:** Mental Health in Tech Survey  
+- **Dataset Source:** [Mental Health in Tech Survey](https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey)  
 - **Special Thanks:** The OpenLearn 1.0 Pathfinders’ team played a crucial role in this project. This would not have been possible without their guidance throughout the cohort.
